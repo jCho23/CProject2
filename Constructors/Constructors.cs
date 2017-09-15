@@ -33,8 +33,12 @@ namespace CProject2.Constructors
     //    }
     //}
 
-    //Demo 3
-    //Constructor Overloading
+    ////Demo 3
+    //Constructor Overloading = Having Methods that are the same Name but differnt signatures
+    //Signature= Something that uniquely identifies that method (return type, name, types and numbers of its parameters)
+    //Why do we need to overload constructors? ==>
+    //==Because we may not have all the parameters when creating an Instance of this class
+
     public class Customer
     {
         public Customer () {...}
