@@ -6,9 +6,12 @@
 namespace CProject2.Constructors
 {
     //This is how to Declare a Constructor
-    //The Constructor is the same name as the class (
+    //The Constructor is the same name as the class (*REQUIREMENT*)
     public class Constructors
     {
+        //This is the Constructor
+        //Constuctors, unlike other Methods, does not have a return type
+        //If you need to initialize an Object upon creation, use a constuctor 
         public Constructors()
         {
         }
