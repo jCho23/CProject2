@@ -32,4 +32,15 @@ namespace CProject2.Constructors
     //        this.Name = name;
     //    }
     //}
+
+    //Demo 3
+    //Constructor Overloading
+    public class Customer
+    {
+        public Customer () {...}
+
+        public Customer (string name) {...}
+
+        public Customer (int id, string name) {...}
+    }
 }
