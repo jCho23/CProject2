@@ -36,6 +36,7 @@
     <Compile Include="Classes\ClassesNotes.cs" />
     <Compile Include="Classes\ClassEx.cs" />
     <Compile Include="Constructors\Constructors.cs" />
+    <Compile Include="Constructors\ConstructorsEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
