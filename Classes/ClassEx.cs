@@ -11,7 +11,9 @@ namespace CProject2.Classes
         }
 
         //Defining Parse Method here
-        public Person Parse(string str)
+        //This is an Instance Method
+        //We Changed this to static so we don't have to declare it twice down below
+        public static Person Parse(string str)
         {
             //Here we are creating a person object
             var person = new Person();
@@ -27,8 +29,9 @@ namespace CProject2.Classes
     {
         static void Main(string[] args)
         {
-            var person = new Person();
-            person.Name = "John";
+            //var person = new Person();
+            var person = Person.Parse("John");
+            //person.Name = "John";
             person.Introduce("June");
 
             //Creating a Person Object from a String
