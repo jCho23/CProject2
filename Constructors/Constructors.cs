@@ -18,15 +18,18 @@ namespace CProject2.Constructors
     //    }
     //}
 
-    //Demo 2
-    public class Customer
-    {
-        public string Name;
+    ////Demo 2
+    //public class Customer
+    //{
+    //    //This Name is set below
+    //    public string Name;
 
-        //Here
-        public Customer(string name)
-        {
-            this.Name = name;
-        }
-    }
+    //    //Here, "string name" is a Parameter
+    //    //So we get the name of the customer and set the string up above
+    //    public Customer(string name)
+    //    {
+    //        //"this" = References the current Object and ties it to the "Name" up above
+    //        this.Name = name;
+    //    }
+    //}
 }
