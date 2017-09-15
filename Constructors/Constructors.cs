@@ -39,12 +39,12 @@ namespace CProject2.Constructors
     //Why do we need to overload constructors? ==>
     //==Because we may not have all the parameters when creating an Instance of this class
 
-    public class Customer
-    {
-        public Customer () {...}
+    //public class Customer
+    //{
+    //    public Customer () {...}
 
-        public Customer (string name) {...}
+    //    public Customer (string name) {...}
 
-        public Customer (int id, string name) {...}
-    }
+    //    public Customer (int id, string name) {...}
+    //}
 }
