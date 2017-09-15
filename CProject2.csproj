@@ -37,6 +37,7 @@
     <Compile Include="Classes\ClassEx.cs" />
     <Compile Include="Constructors\Constructors.cs" />
     <Compile Include="Constructors\ConstructorsEx.cs" />
+    <Compile Include="Constructors\Customers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
