@@ -25,7 +25,7 @@ namespace CProject2.Constructors
             this.Name = name;
         }
 
-        //We are creating a parameter-less Constructor to make the code work below
+        //We are creating a parameter-less Constructor to ensure the code works without any parameters
         public Customers()
         {
 
@@ -39,7 +39,7 @@ namespace CProject2.Constructors
         static void Main(string[] args)
         {
             //Here, we are Creating a New Instance of Customers
-            var customers = new Customers();
+            var customers = new Customers(1, "Mike");
             Console.WriteLine(customers.Id);
             Console.WriteLine(customers.Name);
 
