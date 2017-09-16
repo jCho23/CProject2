@@ -12,14 +12,14 @@
 
 //Method Overloading= Having a Method with the same name but different signatures
 
-public class Point
-{
-    public void Move (int x, int y) {}
+//public class Point
+//{
+//    public void Move (int x, int y) {}
 
-    public void Move (Point newLocation) {}
+//    public void Move (Point newLocation) {}
 
-    public void Move (Point newLocation, int speed) {}
-}
+//    public void Move (Point newLocation, int speed) {}
+//}
 
 //Params Modifier
 
