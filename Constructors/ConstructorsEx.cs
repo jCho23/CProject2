@@ -18,25 +18,25 @@ namespace CProject2.Constructors
             this.Id = id;
         }
 
-        public Customers(int )
+        //we are Overloading the Constructors here
+        public Customers(int id, string name)
         {
-            
+            this.Id = id;
+            this.Name = name;
         }
-}
-
-}
-
-
-}
-    public class ConstructorsEx
-{
-    static void Main(string[] args)
-    {
-        //Here, we are Creating a New Instance of Customers
-        var customers = new Customers();
-        Console.WriteLine(customers.Id);
-        Console.WriteLine(customers.Name);
-
     }
-}
+
+
+
+    public class ConstructorsEx
+    {
+        static void Main(string[] args)
+        {
+            //Here, we are Creating a New Instance of Customers
+            var customers = new Customers();
+            Console.WriteLine(customers.Id);
+            Console.WriteLine(customers.Name);
+
+        }
+    }
 }
