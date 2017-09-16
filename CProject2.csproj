@@ -44,6 +44,7 @@
     <Folder Include="Classes\" />
     <Folder Include="Constructors\" />
     <Folder Include="ObjectInitializers\" />
+    <Folder Include="Methods\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
