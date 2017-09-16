@@ -38,6 +38,7 @@
     <Compile Include="Constructors\Constructors.cs" />
     <Compile Include="Constructors\ConstructorsEx.cs" />
     <Compile Include="Constructors\Customers.cs" />
+    <Compile Include="ObjectInitializers\ObjectInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
