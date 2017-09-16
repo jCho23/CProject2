@@ -32,6 +32,11 @@ namespace CProject2.Constructors
         }
     }
 
+    public class Order
+    {
+        
+    }
+
 
 
     public class ConstructorsEx
@@ -39,7 +44,7 @@ namespace CProject2.Constructors
         static void Main(string[] args)
         {
             //Here, we are Creating a New Instance of Customers
-            var customers = new Customers(1, "Mike");
+            var customers = new Customers();
             Console.WriteLine(customers.Id);
             Console.WriteLine(customers.Name);
 
