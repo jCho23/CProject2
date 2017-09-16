@@ -50,8 +50,6 @@ namespace CProject2.Constructors
         
     }
 
-
-
     public class ConstructorsEx
     {
         static void Main(string[] args)
