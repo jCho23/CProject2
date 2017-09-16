@@ -8,8 +8,13 @@ namespace CProject2.Methods
         public int X;
         public int Y;
 
-
-    }
+        //Constructor
+        public Point(int x, int y)
+        {
+            this.X = x;
+            this.Y = y;
+        }
+}
 
 
 
