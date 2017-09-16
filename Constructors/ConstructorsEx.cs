@@ -15,21 +15,28 @@ namespace CProject2.Constructors
         //1) public Customer{}
         public Customers(int id)
         {
-
+            this.Id = id;
         }
-    }
+
+        public Customers(int )
+        {
+            
+        }
+}
+
+}
 
 
 }
     public class ConstructorsEx
+{
+    static void Main(string[] args)
     {
-       static void Main(string[] args)
-        {
-            //Here, we are Creating a New Instance of Customers
-            var customers = new Customers();
-            Console.WriteLine(customers.Id);
-            Console.WriteLine(customers.Name);
+        //Here, we are Creating a New Instance of Customers
+        var customers = new Customers();
+        Console.WriteLine(customers.Id);
+        Console.WriteLine(customers.Name);
 
-        }
     }
+}
 }
