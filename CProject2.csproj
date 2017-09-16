@@ -39,6 +39,7 @@
     <Compile Include="Constructors\ConstructorsEx.cs" />
     <Compile Include="Constructors\Customers.cs" />
     <Compile Include="ObjectInitializers\ObjectInitializer.cs" />
+    <Compile Include="Methods\Methods.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
