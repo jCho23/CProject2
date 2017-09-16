@@ -26,12 +26,14 @@ namespace CProject2.Constructors
         //Two ways to declare a Constructor
         //1) public Customer{}
         public Customers(int id)
+            :this()
         {
             this.Id = id;
         }
 
         //we are Overloading the Constructors here
         public Customers(int id, string name)
+            :this(id)
         {
             this.Id = id;
             this.Name = name;
@@ -52,12 +54,13 @@ namespace CProject2.Constructors
         {
             //Here, we are Creating a New Instance of Customers
             var customers = new Customers();
-            Console.WriteLine(customers.Id);
-            Console.WriteLine(customers.Name);
 
             //We are creating a New Order for Customers
             var order = new Order();
             customers.Orders.Add(order);
+			
+            Console.WriteLine(customers.Id);
+			Console.WriteLine(customers.Name);
         }
     }
 }
