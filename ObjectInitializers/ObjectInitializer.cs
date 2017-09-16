@@ -5,10 +5,15 @@
 
 namespace CProject2.ObjectInitializers
 {
-    public class ObjectInitializer
+    public class Person
     {
-        public ObjectInitializer()
-        {
-        }
+        public int Id;
+
+        public string FirstName;
+
+        public string LastName;
+
+        public DateTime Birthdate;
+        
     }
 }
