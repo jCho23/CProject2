@@ -18,7 +18,8 @@ namespace CProject2.Constructors
 		//We are creating a parameter-less Constructor to ensure the code works without any parameters
 		public Customers()
 		{
-			
+            //This is the EMPTY LIST
+            Orders = new List<Order>();
 		}
 
         //Declaring a constructor to intialize this field upon instanciation of a customer 
@@ -54,6 +55,9 @@ namespace CProject2.Constructors
             Console.WriteLine(customers.Id);
             Console.WriteLine(customers.Name);
 
+            //We are creating a New Order for Customers
+            var order = new Order();
+            customers.Orders.Add(order);
         }
     }
 }
