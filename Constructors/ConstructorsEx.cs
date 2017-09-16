@@ -24,6 +24,12 @@ namespace CProject2.Constructors
             this.Id = id;
             this.Name = name;
         }
+
+        //We are creating a parameter-less Constructor to make the code work below
+        public Customers()
+        {
+
+        }
     }
 
 
