@@ -7,13 +7,21 @@ namespace CProject2.ObjectInitializers
 {
     public class Person
     {
-        public int Id;
+        public int Id (int id) {};
 
-        public string FirstName;
+        public string FirstName (int id, string firstName) {};
 
-        public string LastName;
+        public string LastName (int id, string firstName, string lastName) {};;
 
-        public DateTime Birthdate;
+        public DateTime Birthdate (int id, DateTime birthdate) {};
         
     }
+
+	//Instead of initializing the objects like above, note here that we using a ObjectInitializer
+	var person = new Person
+    {
+        FirstName = "June",
+        LastName = "Cho"
+
+    };
 }
