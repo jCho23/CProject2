@@ -12,7 +12,14 @@ namespace CProject2.Constructors
         public string Name;
 
         //This List takes a generic parameter, "Order"
+        //Whenever a Class has a list of objects, ALWAYS initialize that List as an EMPTY LIST
         public List<Order> Orders;
+
+		//We are creating a parameter-less Constructor to ensure the code works without any parameters
+		public Customers()
+		{
+			
+		}
 
         //Declaring a constructor to intialize this field upon instanciation of a customer 
         //Two ways to declare a Constructor
@@ -29,11 +36,6 @@ namespace CProject2.Constructors
             this.Name = name;
         }
 
-        //We are creating a parameter-less Constructor to ensure the code works without any parameters
-        public Customers()
-        {
-
-        }
     }
 
     public class Order
