@@ -26,6 +26,8 @@ namespace CProject2.Constructors
         //Two ways to declare a Constructor
         //1) public Customer{}
         public Customers(int id)
+            //Instead of initializng a new List in every Constructor,
+            //we can use ":this()" to reference the empty Constructor above
             :this()
         {
             this.Id = id;
@@ -33,6 +35,8 @@ namespace CProject2.Constructors
 
         //we are Overloading the Constructors here
         public Customers(int id, string name)
+            //Notice that we are Referencing the "id" constructor above here 
+            //thereby initializing the Order List
             :this(id)
         {
             this.Id = id;
