@@ -21,7 +21,18 @@
 //    public void Move (Point newLocation, int speed) {}
 //}
 
-//Params Modifier
+//Params Modifier = A method with varying number of parameters
+//You can call the method in 2 ways with params
+
+public class Calculator
+{
+    public int Add(params int[] numbers){}
+}
+
+//1) You can call it by passing an int Array if needed
+var result = calculator.Add(new int[] { 1, 2, 3, 4 });
+//2) Or you can simply pass a varying number of argruments
+var result = calculator.Add(1, 2, 3, 4);
 
 //Ref Modifier
 
