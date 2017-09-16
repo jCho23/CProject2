@@ -18,6 +18,7 @@ namespace CProject2.ObjectInitializers
     }
 
 	//Instead of initializing the objects like above, note here that we using a ObjectInitializer
+    //to initialize the person object
 	var person = new Person
     {
         FirstName = "June",
