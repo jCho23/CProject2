@@ -21,15 +21,20 @@ namespace CProject2.Methods
             this.X = x;
             this.Y = y;
         }
-}
 
-
+        //Overloading Methods
+        public void Move(Point newLocation)
+        {
+            this.X = newLocation.X;
+            this.Y = newLocation.Y;
+        }
+    }
 
     public class MethodsEx
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }
