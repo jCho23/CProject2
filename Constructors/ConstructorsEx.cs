@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using CProject2.Constructors;
 
 namespace CProject2.Constructors
@@ -9,6 +10,9 @@ namespace CProject2.Constructors
         //*NOTE= This is not the best way to declare fields (i.e. public)
         public int Id;
         public string Name;
+
+        //This List takes a generic parameter, "Order"
+        public List<Order> Orders;
 
         //Declaring a constructor to intialize this field upon instanciation of a customer 
         //Two ways to declare a Constructor
