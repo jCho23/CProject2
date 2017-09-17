@@ -45,6 +45,7 @@
     <Compile Include="Fields\FieldsEx.cs" />
     <Compile Include="AccessModifiers\AccessModifiers.cs" />
     <Compile Include="AccessModifiers\AccessModifiersEx.cs" />
+    <Compile Include="PropertiesInClasses.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
@@ -53,6 +54,7 @@
     <Folder Include="Methods\" />
     <Folder Include="Fields\" />
     <Folder Include="AccessModifiers\" />
+    <Folder Include="PropertiesInClasses\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
