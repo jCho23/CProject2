@@ -20,13 +20,18 @@ namespace CProject2.Fields
         }
 
         //Second Constructor
-
+        public Customer(int id, string name)
+        //Notice that we are using ":this" to delegate "id" to the constructor above
+            : this(id)
+        {
+            this.Name = name;
+        }
     }
 
     //Order Class
     public class Order
     {
-        
+
     }
 
 
@@ -34,7 +39,7 @@ namespace CProject2.Fields
     {
         static void Main(string[] args)
         {
-            
+
         }
     }
 }
