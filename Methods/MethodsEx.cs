@@ -26,6 +26,12 @@ namespace CProject2.Methods
         //Notice that this Move Method has a different signature than above
         public void Move(Point newLocation)
         {
+            //This Conditional Statement covers if the New Location is null
+            //This way, out Point object will always stay in a valid state
+            if (newLocation == null)
+                throw new ArgumentNullException("newLocation");
+
+
             //This replaces the code below
             //Reason= We want to minimze where we define the same variables
             Move(newLocation.X, newLocation.Y);
