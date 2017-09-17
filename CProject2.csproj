@@ -41,6 +41,7 @@
     <Compile Include="ObjectInitializers\ObjectInitializer.cs" />
     <Compile Include="Methods\Methods.cs" />
     <Compile Include="Methods\MethodsEx.cs" />
+    <Compile Include="Fields\Fields.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
