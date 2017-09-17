@@ -18,9 +18,13 @@ namespace CProject2.Fields
             Orders = new List<Order>();
         }
 
-
         //List of Orders for Customer
-        public List<Order> Orders;
+        //Notice that we are initializing the Orders Field here RATHER than...
+        //using a constuctor like above
+        //This way, no matter what constructor is called, the Orders Field will...
+        //ALWAYS be intialized to an empty list
+        //Both ways can be used, its up to your preference
+        public List<Order> Orders = new List<Order>();
 
         //Declaring Constructors
         public Customer(int id)
