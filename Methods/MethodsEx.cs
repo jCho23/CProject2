@@ -35,7 +35,11 @@ namespace CProject2.Methods
     {
         static void Main(string[] args)
         {
+            //Here we are creating a new point object
+            var point = new Point(10, 20);
 
+            //Here we are calling the Move Method
+            //
         }
     }
 }
