@@ -43,7 +43,12 @@ namespace CProject2.Methods
 
     public class Calculator
     {
-
+        //This takes a varying number of arguments
+        //Here, "numbers" is an Int Array
+        public int Add(params int[] numbers)
+        {
+            
+        }
 
     }
 
