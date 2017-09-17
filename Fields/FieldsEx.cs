@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CProject2.Fields
 {
@@ -8,6 +9,11 @@ namespace CProject2.Fields
         //Here, we are declaring Fields
         public int Id;
         public string Name;
+
+        //List of Orders for Customer
+        public List<Order> Orders;
+
+        //Declaring Constructors
     }
 
     //Order Class
