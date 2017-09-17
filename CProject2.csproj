@@ -43,6 +43,7 @@
     <Compile Include="Methods\MethodsEx.cs" />
     <Compile Include="Fields\Fields.cs" />
     <Compile Include="Fields\FieldsEx.cs" />
+    <Compile Include="AccessModifiers\AccessModifiers.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
