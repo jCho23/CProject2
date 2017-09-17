@@ -6,7 +6,14 @@ namespace CProject2.AccessModifiers
         //Notice that this is a private field illustrated by "_birthdate"
         private DateTime _birthdate;
 
+        //Here, we are creating Methods that will allow other members to access "_birthdate"
+        public void SetBirthdate(DateTime birthdate)
+        {
+            //We can set logic of Birthdate if needed here
 
+            //Here, we are just setting the _birthdate to the value passed to this data (birthdate)
+            _birthdate = birthdate;
+        }
     }
 
     public class AccessModifiersEx
