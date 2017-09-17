@@ -10,7 +10,9 @@ namespace CProject2.Fields
         public int Id;
         public string Name;
 
-        //
+        //Since we have a list, we need to set an empty list
+        //We have to make sure that this default constructor is ALWAYS called first...
+        //so the Order fields will be intialized 
         public Customer()
         {
             Orders = new List<Order>();
