@@ -50,6 +50,7 @@
     <Folder Include="ObjectInitializers\" />
     <Folder Include="Methods\" />
     <Folder Include="Fields\" />
+    <Folder Include="AccessModifiers\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
