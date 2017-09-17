@@ -10,6 +10,13 @@ namespace CProject2.Fields
         public int Id;
         public string Name;
 
+        //
+        public Customer()
+        {
+            Orders = new List<Order>();
+        }
+
+
         //List of Orders for Customer
         public List<Order> Orders;
 
