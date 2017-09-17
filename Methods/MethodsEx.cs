@@ -45,10 +45,15 @@ namespace CProject2.Methods
     {
         static void Main(string[] args)
         {
-            //This Try / Catch Block enhances the user experience 
-            //since it displays a String Error Message
-            try
-            {
+
+        }
+
+        static void UsePoints()
+        {
+			//This Try / Catch Block enhances the user experience 
+			//since it displays a String Error Message
+			try
+			{
 				//Here we are creating a new point object
 				var point = new Point(10, 20);
 				
@@ -63,13 +68,13 @@ namespace CProject2.Methods
 				//Second Overload
 				point.Move(100, 200);
 				Console.WriteLine("Point is at ({0}, {1})", point.X, point.Y);
-            }
-
-            catch (Exception ex)
-            {
-                Console.WriteLine("An unexpected error occurred");
-            }
-
+			}
+			
+			catch (Exception ex)
+			{
+				Console.WriteLine("An unexpected error occurred");
+			}
+            
         }
     }
 }
