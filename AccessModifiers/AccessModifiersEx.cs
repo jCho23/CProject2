@@ -28,7 +28,10 @@ namespace CProject2.AccessModifiers
         {
             //Creating a Person Object
             var person = new Person();
-            person.
+
+            //Since we created the two public methods of, we can access some of the private fields of "birthdate"
+            person.SetBirthdate(new DateTime(1990, 1, 1));
+            Console.WriteLine(person.GetBirthdate());
         }
     }
 }
