@@ -75,6 +75,12 @@ namespace CProject2.Methods
             int number;
             var result= int.TryParse("abc", out number);
 
+            //We are using a conditional statement to display the results
+            if(result)
+                Console.WriteLine(number);
+            else
+                Console.WriteLine("Conversion failed!");
+
         }
 
         static void UseParams()
