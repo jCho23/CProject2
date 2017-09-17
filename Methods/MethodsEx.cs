@@ -23,6 +23,7 @@ namespace CProject2.Methods
         }
 
         //Overloading Methods
+        //Notice that this Move Method has a different signature than above
         public void Move(Point newLocation)
         {
             this.X = newLocation.X;
