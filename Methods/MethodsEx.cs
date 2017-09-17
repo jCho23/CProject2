@@ -26,8 +26,12 @@ namespace CProject2.Methods
         //Notice that this Move Method has a different signature than above
         public void Move(Point newLocation)
         {
-            this.X = newLocation.X;
-            this.Y = newLocation.Y;
+            //This replaces the code below
+            //Reason= We want to minimze where we define the same variables
+            Move(newLocation.X, newLocation.Y);
+
+            //this.X = newLocation.X;
+            //this.Y = newLocation.Y;
         }
     }
 
