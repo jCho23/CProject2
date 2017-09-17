@@ -39,6 +39,13 @@ namespace CProject2.Fields
         {
             this.Name = name;
         }
+
+        //Read-Only
+        public void Promote()
+        {
+            
+        }
+
     }
 
     //Order Class
@@ -52,7 +59,13 @@ namespace CProject2.Fields
     {
         static void Main(string[] args)
         {
+            //Here we are creating a Customer Object
+            var customer = new Customer(1);
 
+            //Now we are adding 2 Orders of this Customer
+            //We should have 2 Orders on the Console after this line executes
+            customer.Orders.Add(new Order());
+            customer.Orders.Add(new Order());
         }
     }
 }
