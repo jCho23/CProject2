@@ -66,10 +66,10 @@ namespace CProject2.Methods
         {
             //Here we are calling an Instance of the calculator
             var calculator = new Calculator();
-            Console.WriteLine(calculator.Add(1, 2));
-            Console.WriteLine(calculator.Add(1, 2));
-         
 
+            //Notice that we can call a varying number of parameters because we are using "params"
+            Console.WriteLine(calculator.Add(1, 2));
+            Console.WriteLine(calculator.Add(1, 2, 3));
         }
 
         static void UsePoints()
