@@ -3,8 +3,9 @@ namespace CProject2.Fields
 {
     public class FieldsEx
     {
-        public FieldsEx()
+        static void Main(string[] args)
         {
+            
         }
     }
 }
