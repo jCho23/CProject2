@@ -69,9 +69,20 @@ namespace CProject2.Methods
             //Here we have a string and we want to convert it to a number
             //We can use the Parse Method of the Int Class to do this
             //Notice that we have an invalid number
-            var number = int.Parse("abc");
+            //In order to catch this crash we have to use a TryBlock Method
+            //Thus, it might be easier it certain situations to use the TryParse Method
+            try
+            {
+				var number = int.Parse("abc");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Conversion Failed!");
+            }
 
             //TryParse Method
+            //The different between "Parse" and "TryParse"
+            //"TryParse"= Does not throw an exception
             int number;
             var result= int.TryParse("abc", out number);
 
