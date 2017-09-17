@@ -27,24 +27,11 @@ public class Person
     }
 }
 
-
+////5 types of Access Modifiers
 //Public 
-
 //Private
-
 //Protected
-
 //Internal
-
 //Protected Internal
 
 
-namespace CProject2.AccessModifiers
-{
-    public class AccessModifiers
-    {
-        public AccessModifiers()
-        {
-        }
-    }
-}
