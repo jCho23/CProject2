@@ -15,6 +15,10 @@ using System.Collections.Generic;
 
 ////Read-Only Fields
 //
+public class Customer
+{
+    readonly List<Order> Orders = new List<Order>();
+}
 
 
 namespace CProject2.Fields
