@@ -14,6 +14,12 @@ namespace CProject2.AccessModifiers
             //Here, we are just setting the _birthdate to the value passed to this data (birthdate)
             _birthdate = birthdate;
         }
+
+        //This method simply returns a birthday field
+        public DateTime GetBirthdate()
+        {
+            return _birthdate;
+        }
     }
 
     public class AccessModifiersEx
