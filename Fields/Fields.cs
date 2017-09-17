@@ -18,7 +18,9 @@ using System.Collections.Generic;
 //Field= Must be initialized directly like below...
 //or Field= Or in of the constructors in the Class
 
-//Why Read-Only
+//Why Read-Only? = This creates a saftey net in our application
+//For example, the "readonly" below ensures that we will Only have ONE...
+//list, for the List of Orders
 public class Customer
 {
     readonly List<Order> Orders = new List<Order>();
