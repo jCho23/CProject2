@@ -60,9 +60,6 @@ namespace CProject2.Methods
 
     }
 
-
-
-
     public class MethodsEx
     {
         static void Main(string[] args)
