@@ -11,7 +11,10 @@ namespace CProject2.Fields
     }
 
     //Order Class
-
+    public class Order
+    {
+        
+    }
 
 
     public class FieldsEx
