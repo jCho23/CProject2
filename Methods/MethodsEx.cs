@@ -64,6 +64,11 @@ namespace CProject2.Methods
     {
         static void Main(string[] args)
         {
+            //Here we are calling an Instance of the calculator
+            var calculator = new Calculator();
+            Console.WriteLine(calculator.Add(1, 2));
+            Console.WriteLine(calculator.Add(1, 2));
+         
 
         }
 
