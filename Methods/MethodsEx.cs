@@ -66,7 +66,14 @@ namespace CProject2.Methods
         {
             //Using the Out Modifier
 
-            //Here we have a string and we want to convery it to a number
+            //Here we have a string and we want to convert it to a number
+            //We can use the Parse Method of the Int Class to do this
+            //Notice that we have an invalid number
+            var number = int.Parse("abc");
+
+            //TryParse Method
+            int number;
+            var result= int.TryParse("abc", out number);
 
         }
 
