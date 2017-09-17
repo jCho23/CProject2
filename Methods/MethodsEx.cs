@@ -45,20 +45,31 @@ namespace CProject2.Methods
     {
         static void Main(string[] args)
         {
-            //Here we are creating a new point object
-            var point = new Point(10, 20);
+            //This Try / Catch Block enhances the user experience 
+            //since it displays a String Error Message
+            try
+            {
+				//Here we are creating a new point object
+				var point = new Point(10, 20);
+				
+				//Here we are calling the Move Method
+				//Notice that it takes 2 Overloads since we created 2 
+				//These 2 overloads makes it easier for the user
+				
+				//This is the first Overload
+				point.Move(new Point(40, 60));
+				Console.WriteLine("Point is at ({0}, {1})", point.X, point.Y);
+				
+				//Second Overload
+				point.Move(100, 200);
+				Console.WriteLine("Point is at ({0}, {1})", point.X, point.Y);
+            }
 
-            //Here we are calling the Move Method
-            //Notice that it takes 2 Overloads since we created 2 
-            //These 2 overloads makes it easier for the user
+            catch (Exception ex)
+            {
+                Console.WriteLine("An unexpected error occurred");
+            }
 
-            //This is the first Overload
-            point.Move(new Point(40, 60));
-            Console.WriteLine("Point is at ({0}, {1})", point.X, point.Y);
-
-            //Second Overload
-            point.Move(100, 200);
-            Console.WriteLine("Point is at ({0}, {1})", point.X, point.Y);
         }
     }
 }
