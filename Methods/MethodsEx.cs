@@ -64,6 +64,10 @@ namespace CProject2.Methods
     {
         static void Main(string[] args)
         {
+            //Using the Out Modifier
+
+            //Here we have a string and we want to convery it to a number
+
         }
 
         static void UseParams()
