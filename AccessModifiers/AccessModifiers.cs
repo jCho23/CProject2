@@ -9,23 +9,23 @@
 //// 
 ////*Classes and Methods= PascalCase
 /// *Fields= camelCase prefixed with an underline 
-public class Person
-{
-    //Notice that the fields are represented by _name
-    private string _name;
+//public class Person
+//{
+//    //Notice that the fields are represented by _name
+//    private string _name;
 
-    //Here, with a Setter and Getter, we can introduce Logic into our fields
-    public void SetName(string name)
-    {
-        if (!String.IsNullOrEmpty(name))
-            this._name = name;
-    }
+//    //Here, with a Setter and Getter, we can introduce Logic into our fields
+//    public void SetName(string name)
+//    {
+//        if (!String.IsNullOrEmpty(name))
+//            this._name = name;
+//    }
 
-    public string GetName()
-    {
-        return _name;
-    }
-}
+//    public string GetName()
+//    {
+//        return _name;
+//    }
+//}
 
 ////5 types of Access Modifiers
 //Public 
