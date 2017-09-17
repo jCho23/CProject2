@@ -21,18 +21,18 @@ using System.Collections.Generic;
 //Why Read-Only? = This creates a saftey net in our application
 //For example, the "readonly" below ensures that we will Only have ONE...
 //list, for the List of Orders
-public class Customer
-{
-    readonly List<Order> Orders = new List<Order>();
-}
+//public class Customer
+//{
+//    readonly List<Order> Orders = new List<Order>();
+//}
 
 
-namespace CProject2.Fields
-{
-    public class Fields
-    {
-        public Fields()
-        {
-        }
-    }
-}
+//namespace CProject2.Fields
+//{
+//    public class Fields
+//    {
+//        public Fields()
+//        {
+//        }
+//    }
+//}
