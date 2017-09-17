@@ -39,7 +39,10 @@ namespace CProject2.Methods
             var point = new Point(10, 20);
 
             //Here we are calling the Move Method
-            //
+            //Notice that it takes 2 Overloads since we created 2 
+            //These 2 overloads makes it easier for the user
+            point.Move(new Point(40, 60));
+            Console.WriteLine("Point is at ({0}, {1})", point.X, point.Y);
         }
     }
 }
