@@ -14,7 +14,11 @@ using System.Collections.Generic;
 //}
 
 ////Read-Only Fields
-//
+//Read-Only= This ensures that the Field is only Assisgned ONCE
+//Field= Must be initialized directly like below...
+//or Field= Or in of the constructors in the Class
+
+//Why Read-Only
 public class Customer
 {
     readonly List<Order> Orders = new List<Order>();
