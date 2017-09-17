@@ -64,29 +64,34 @@ namespace CProject2.Methods
     {
         static void Main(string[] args)
         {
-            //Here we are calling an Instance of the calculator
-            var calculator = new Calculator();
+        }
 
-            //Notice that we can call a varying number of parameters because we are using "params"
-            Console.WriteLine(calculator.Add(1, 2));
-            Console.WriteLine(calculator.Add(1, 2, 3));
-
-            //We can also call Calculator with an Array notation
-            Console.WriteLine(calculator.Add(new int[] {1,2,3,4,5}));
+        static void UseParams()
+        {
+			//Here we are calling an Instance of the calculator
+			var calculator = new Calculator();
+			
+			//Notice that we can call a varying number of parameters because we are using "params"
+			Console.WriteLine(calculator.Add(1, 2));
+			Console.WriteLine(calculator.Add(1, 2, 3));
+			
+			//We can also call Calculator with an Array notation
+			//As you can see, it is easier to use "params" to call the Calculator Method than this way
+			Console.WriteLine(calculator.Add(new int[] {1,2,3,4,5}));
         }
 
         static void UsePoints()
         {
-			//This Try / Catch Block enhances the user experience 
-			//since it displays a String Error Message
-			try
-			{
-				//Here we are creating a new point object
-				var point = new Point(10, 20);
-				
-				//Here we are calling the Move Method
-				//Notice that it takes 2 Overloads since we created 2 
-				//These 2 overloads makes it easier for the user
+            //This Try / Catch Block enhances the user experience 
+            //since it displays a String Error Message
+            try
+            {
+                //Here we are creating a new point object
+                var point = new Point(10, 20);
+                
+                //Here we are calling the Move Method
+                //Notice that it takes 2 Overloads since we created 2 
+                //These 2 overloads makes it easier for the user
 				
 				//This is the first Overload
 				point.Move(new Point(40, 60));
