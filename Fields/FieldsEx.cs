@@ -24,7 +24,10 @@ namespace CProject2.Fields
         //This way, no matter what constructor is called, the Orders Field will...
         //ALWAYS be intialized to an empty list
         //Both ways can be used, its up to your preference
-        public List<Order> Orders = new List<Order>();
+
+        //Notice that this READONLY is protecting where this list can be called
+        //That's why the list won't work in the Promote Method
+        public readonly List<Order> Orders = new List<Order>();
 
         //Declaring Constructors
         public Customer(int id)
