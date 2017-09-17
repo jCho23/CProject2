@@ -40,10 +40,13 @@ namespace CProject2.Fields
             this.Name = name;
         }
 
-        //Read-Only
+        //Read-Only Example
         public void Promote()
         {
-            
+            //Notice that we are calling another list of Order here
+            //This will clear the list and its not what we want
+            //Thus, we will use READ-ONLY when we initialize the List<Order> field
+            Orders = new List<Order>();
         }
 
     }
@@ -66,6 +69,11 @@ namespace CProject2.Fields
             //We should have 2 Orders on the Console after this line executes
             customer.Orders.Add(new Order());
             customer.Orders.Add(new Order());
+
+
+            customer.Promote();
+
+            Console.WriteLine(customer.Orders.Count);
         }
     }
 }
