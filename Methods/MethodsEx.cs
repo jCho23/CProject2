@@ -47,7 +47,15 @@ namespace CProject2.Methods
         //Here, "numbers" is an Int Array
         public int Add(params int[] numbers)
         {
-            
+            var sum = 0;
+            //Here we are using forEach to iterate through the numbers
+            foreach(var number in numbers)
+            {
+                //We are adding every "number" to the sum
+                sum += number;
+            }
+
+            return sum;
         }
 
     }
