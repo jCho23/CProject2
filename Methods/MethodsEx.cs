@@ -28,10 +28,10 @@ namespace CProject2.Methods
         {
             //This Conditional Statement covers if the New Location is null
             //This way, out Point object will always stay in a valid state
+            //Defensive Programming == Stopping the program from an invalid state 
             if (newLocation == null)
                 throw new ArgumentNullException("newLocation");
-
-
+            
             //This replaces the code below
             //Reason= We want to minimze where we define the same variables
             Move(newLocation.X, newLocation.Y);
