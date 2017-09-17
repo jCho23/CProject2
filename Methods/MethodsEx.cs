@@ -70,6 +70,9 @@ namespace CProject2.Methods
             //Notice that we can call a varying number of parameters because we are using "params"
             Console.WriteLine(calculator.Add(1, 2));
             Console.WriteLine(calculator.Add(1, 2, 3));
+
+            //We can also call Calculator with an Array notation
+            Console.WriteLine(calculator.Add(new int[] {1,2,3,4,5}));
         }
 
         static void UsePoints()
