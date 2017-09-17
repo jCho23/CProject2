@@ -14,6 +14,13 @@ namespace CProject2.Fields
         public List<Order> Orders;
 
         //Declaring Constructors
+        public Customer(int id)
+        {
+            this.Id = id;
+        }
+
+        //Second Constructor
+
     }
 
     //Order Class
