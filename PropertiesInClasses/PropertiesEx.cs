@@ -21,6 +21,8 @@ namespace CProject2.PropertiesInClasses
 
                 //This will give you the total number of years
                 var years = timeSpan.Days / 365;
+
+                return years;
             }
         }
     }
