@@ -6,6 +6,22 @@ namespace CProject2.PropertiesInClasses
 {
     public class Person
     {
+		////We are creating another Auto-Implemented property
+		////Code Snippet= "prop"
+		public string Name
+		{
+			get;
+			set;
+		}
+
+		//Here we are creating an Auto-Implemented property without any fields
+		//Note, that the compiler will create internally create a private field 
+		//And implements the "get" and "set" Accessor Methods
+		////Notice that we are using a "Private" set here to ensure that the Birthday is only set once
+		public DateTime Birthdate { get; private set; }
+
+
+
         //We are creating a Constructor here to access the Private Set below
         //Here, we are setting the dateTime parameter, which is "birthdate"
         public Person(DateTime birthdate)
@@ -13,21 +29,6 @@ namespace CProject2.PropertiesInClasses
             //We are setting the "birthdate" property 
             Birthdate = birthdate;
         }
-
-        ////We are creating another Auto-Implemented property
-        ////Code Snippet= "prop"
-        public string Name
-        {
-            get;
-            set;
-        }
-
-
-        //Here we are creating an Auto-Implemented property without any fields
-        //Note, that the compiler will create internally create a private field 
-        //And implements the "get" and "set" Accessor Methods
-        ////Notice that we are using a "Private" set here to ensure that the Birthday is only set once
-        public DateTime Birthdate { get; private set; }
 
         //We are creating a property called "age"
         //This property cannot be Auto-Implemented because we need some logic
