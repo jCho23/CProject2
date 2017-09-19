@@ -8,11 +8,19 @@ namespace CProject2.PropertiesInClasses
     {
 		////We are creating another Auto-Implemented property
 		////Code Snippet= "prop"
+        ////Notice that we put all the properties at the TOP, the we have the Constructor
+
 		public string Name
 		{
 			get;
 			set;
 		}
+
+        public string UserName
+        {
+            get;
+            set;
+        }
 
 		//Here we are creating an Auto-Implemented property without any fields
 		//Note, that the compiler will create internally create a private field 
