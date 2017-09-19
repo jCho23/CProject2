@@ -20,6 +20,23 @@ public class Person
 }
 
 ////Properties Example
+public class Person2
+{
+    private DateTime _birthdate;
+
+    public DateTime Birthdate
+    {
+        get
+        {
+            return _birthdate;
+        }
+
+        set
+        {
+            _birthdate = value;
+        }
+    }
+}
 
 namespace CProject2
 {
