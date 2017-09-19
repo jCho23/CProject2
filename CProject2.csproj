@@ -46,6 +46,7 @@
     <Compile Include="AccessModifiers\AccessModifiers.cs" />
     <Compile Include="AccessModifiers\AccessModifiersEx.cs" />
     <Compile Include="PropertiesInClasses\PropertiesInClasses.cs" />
+    <Compile Include="PropertiesInClasses\PropertiesEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
