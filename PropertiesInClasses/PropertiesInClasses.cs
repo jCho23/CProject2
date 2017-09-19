@@ -30,6 +30,7 @@ public class Person2
     //Notice that this Property is Public
     public DateTime Birthdate
     {
+        //Here, we just return the field: _birthdate
         get
         {
             return _birthdate;
