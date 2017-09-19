@@ -36,6 +36,7 @@ public class Person2
             return _birthdate;
         }
 
+        //We use the "value" keyword to get what is on the right side of the assignment
         set
         {
             _birthdate = value;
