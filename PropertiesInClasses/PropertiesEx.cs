@@ -4,6 +4,8 @@ namespace CProject2.PropertiesInClasses
 {
     public class Person
     {
+        //We are creating a Constructor here to access the Private Set below
+
         //Here we are creating an Auto-Implemented property without any fields
         //Note, that the compiler will create internally create a private field 
         //And implements the "get" and "set" Accessor Methods
@@ -35,6 +37,10 @@ namespace CProject2.PropertiesInClasses
         {
             //Here, we are creating an Instance of the Person class
             var person = new Person();
+
+            //We need to create a constructor for this Person Class
+            //Where we get the Birthdate and the property can no longer be changed
+            //Note we are creating the Constructor above
             person.Birthdate = new DateTime(1990, 1, 1);
 
             Console.WriteLine(person.Age);
