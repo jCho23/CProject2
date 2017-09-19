@@ -7,7 +7,8 @@ namespace CProject2.PropertiesInClasses
         //Here we are creating an Auto-Implemented property without any fields
         //Note, that the compiler will create internally create a private field 
         //And implements the "get" and "set" Accessor Methods
-        public DateTime Birthdate { get; set; }
+        ////Notice that we are using a "Private" set here to ensure that the Birthday is only set once
+        public DateTime Birthdate { get; private set; }
 
         //We are creating a property called "age"
         //This property cannot be Auto-Implemented because we need some logic
@@ -24,6 +25,7 @@ namespace CProject2.PropertiesInClasses
 
                 return years;
             }
+            //Notice that we are not using the "set" method here becuase it doesn't make sense to set someone's birthday
         }
     }
 
