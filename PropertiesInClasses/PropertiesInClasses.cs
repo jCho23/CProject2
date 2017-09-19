@@ -44,12 +44,5 @@ public class Person2
     }
 }
 
-namespace CProject2
-{
-    public class PropertiesInClasses
-    {
-        public PropertiesInClasses()
-        {
-        }
-    }
-}
+
+
