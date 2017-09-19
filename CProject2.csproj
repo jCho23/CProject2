@@ -45,7 +45,7 @@
     <Compile Include="Fields\FieldsEx.cs" />
     <Compile Include="AccessModifiers\AccessModifiers.cs" />
     <Compile Include="AccessModifiers\AccessModifiersEx.cs" />
-    <Compile Include="PropertiesInClasses.cs" />
+    <Compile Include="PropertiesInClasses\PropertiesInClasses.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
