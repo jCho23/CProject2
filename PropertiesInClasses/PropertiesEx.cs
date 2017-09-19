@@ -5,6 +5,13 @@ namespace CProject2.PropertiesInClasses
     public class Person
     {
         //We are creating a Constructor here to access the Private Set below
+        //Here, we are setting the dateTime parameter, which is "birthdate"
+        public Person(DateTime birthdate)
+        {
+            //We are setting the "birthdate" property 
+            Birthdate = birthdate;
+        }
+
 
         //Here we are creating an Auto-Implemented property without any fields
         //Note, that the compiler will create internally create a private field 
