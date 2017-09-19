@@ -14,6 +14,14 @@ namespace CProject2.PropertiesInClasses
             Birthdate = birthdate;
         }
 
+        ////We are creating another Auto-Implemented property
+        ////Code Snippet= "prop"
+        public string Name
+        {
+            get;
+            set;
+        }
+
 
         //Here we are creating an Auto-Implemented property without any fields
         //Note, that the compiler will create internally create a private field 
@@ -40,10 +48,10 @@ namespace CProject2.PropertiesInClasses
         }
     }
 
-    public class PropertiesEx
-    {
-        static void Main(string[] args)
-        {
+    //public class PropertiesEx
+    //{
+        //static void Main(string[] args)
+        //{
             ////Here, we are creating an Instance of the Person class
             //var person = new Person();
 
@@ -54,9 +62,9 @@ namespace CProject2.PropertiesInClasses
             //Console.WriteLine(person.Age);
 
             //Since we created a constuctor to access the Private Set, we are refactoring the code above to work
-            var person = new Person(new DateTime(1982, 1, 1));
-            Console.WriteLine(person.Age);
-        }
+    //        var person = new Person(new DateTime(1982, 1, 1));
+    //        Console.WriteLine(person.Age);
+    //    }
 
-    }
+    //}
 }
