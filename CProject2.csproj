@@ -56,6 +56,7 @@
     <Folder Include="Fields\" />
     <Folder Include="AccessModifiers\" />
     <Folder Include="PropertiesInClasses\" />
+    <Folder Include="Indexers\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
