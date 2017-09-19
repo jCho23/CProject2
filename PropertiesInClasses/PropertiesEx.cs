@@ -31,7 +31,12 @@ namespace CProject2.PropertiesInClasses
     {
         static void Main(string[] args)
         {
-            
+            //Here, we are creating an Instance of the Person class
+            var person = new Person();
+            person.Birthdate = new DateTime(1990, 1, 1);
+
+            Console.WriteLine(person.Age);
         }
+
     }
 }

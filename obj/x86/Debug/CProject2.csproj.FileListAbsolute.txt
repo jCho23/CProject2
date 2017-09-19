@@ -1,0 +1,5 @@
+/Users/JuneCho/Projects/CProject2/CProject2/bin/Debug/CProject2.exe
+/Users/JuneCho/Projects/CProject2/CProject2/bin/Debug/CProject2.pdb
+/Users/JuneCho/Projects/CProject2/CProject2/obj/x86/Debug/CProject2.csproj.CoreCompileInputs.cache
+/Users/JuneCho/Projects/CProject2/CProject2/obj/x86/Debug/CProject2.exe
+/Users/JuneCho/Projects/CProject2/CProject2/obj/x86/Debug/CProject2.pdb
