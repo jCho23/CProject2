@@ -17,7 +17,10 @@ namespace CProject2.PropertiesInClasses
             get
             {
                 //When you subtract Two Datetime Objects you get a Time-Span
-                DateTime.Today - Birthdate
+                var timeSpan = DateTime.Today - Birthdate;
+
+                //This will give you the total number of years
+                var years = timeSpan.Days / 365;
             }
         }
     }
