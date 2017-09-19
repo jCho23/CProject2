@@ -19,6 +19,8 @@ public class Person
     }
 }
 
+////Properties Example
+
 namespace CProject2
 {
     public class PropertiesInClasses
