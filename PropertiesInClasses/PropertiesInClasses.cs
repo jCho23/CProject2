@@ -44,5 +44,9 @@ public class Person2
     }
 }
 
-
+////Auto-Implemented Properties
+public class Person3
+{
+    public DateTime Birthdate { get; set; }
+}
 
