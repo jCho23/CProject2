@@ -20,10 +20,14 @@ public class Person
 }
 
 ////Properties Example
+////This is the same code as above
+//// Private Fields= Always prefixed by "_"  
 public class Person2
 {
     private DateTime _birthdate;
 
+    //This is the Property
+    //Notice that this Property is Public
     public DateTime Birthdate
     {
         get
