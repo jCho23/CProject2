@@ -11,9 +11,14 @@ namespace CProject2.PropertiesInClasses
 
         //We are creating a property called "age"
         //This property cannot be Auto-Implemented because we need some logic
+        //We want the Age to be based on person
         public int Age
         {
-            
+            get
+            {
+                //When you subtract Two Datetime Objects you get a Time-Span
+                DateTime.Today - Birthdate
+            }
         }
     }
 
