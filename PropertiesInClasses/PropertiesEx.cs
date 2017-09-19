@@ -1,5 +1,7 @@
 ﻿using System;
 
+//**Note: Classes should always be in a VALID state**
+
 namespace CProject2.PropertiesInClasses
 {
     public class Person
